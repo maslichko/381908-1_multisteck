@@ -163,5 +163,4 @@ TEST(TMultiStack, can_MinElem)
 	tmp.Push(13, 2);
 
 	EXPECT_EQ(2, tmp.min_elem());
-}
-//
+}//
