@@ -22,7 +22,7 @@ TEST(TMultiStack, check_for_non_existent_empty_MultiStack)
 {
 	TMultiStack<int> tmp(5, 4);
 
-	ASSERT_ANY_THROW(tmp.IsEmpty(4));
+	ASSERT_ANY_THROW(tmp.IsEmpty(5));
 }
 
 TEST(TMultiStack, check_negative_empty_MultiStack)
@@ -163,4 +163,4 @@ TEST(TMultiStack, can_MinElem)
 	tmp.Push(13, 2);
 
 	EXPECT_EQ(2, tmp.min_elem());
-}//
+}////
