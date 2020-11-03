@@ -164,15 +164,4 @@ TEST(TMultiStack, can_MinElem)
 
 	EXPECT_EQ(2, tmp.min_elem());
 }
-
-TEST(TMultiStack, can_file)
-{
-	TMultiStack<int> tmp(2, 3);
-	tmp.Push(1, 0);
-	tmp.Push(2, 1);
-	tmp.Push(3, 2);
-	tmp.Push(4, 2);
-
-	ASSERT_NO_THROW(tmp.file());
-}
 //
