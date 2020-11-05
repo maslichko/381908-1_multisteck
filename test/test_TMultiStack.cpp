@@ -134,7 +134,7 @@ TEST(TMultiStack, cant_Resize_negative)
 
 TEST(TMultiStack, can_StackRelocation)
 {
-	TMultiStack<int> tmp(5, 3);
+	TMultiStack<int> tmp(9, 3);
 	tmp.Push(11, 0);
 	tmp.Push(12, 1);
 	tmp.Push(12, 1);
