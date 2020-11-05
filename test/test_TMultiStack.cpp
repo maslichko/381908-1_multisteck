@@ -142,7 +142,7 @@ TEST(TMultiStack, can_StackRelocation)
 
 	ASSERT_NO_THROW(tmp.Push(15, 1));
 }
-/*
+
 TEST(TMultiStack, can_MaxElem)
 {
 	TMultiStack<int> tmp(2, 3);
@@ -164,4 +164,3 @@ TEST(TMultiStack, can_MinElem)
 
 	EXPECT_EQ(2, tmp.min_elem());
 }
-*/
